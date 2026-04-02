@@ -1,0 +1,32 @@
+package it.paranoidsquirrels.idleguildmaster;
+
+public enum KingMessage
+{
+    private static final KingMessage[] $VALUES;
+    
+    MESSAGE_1(2131888878, 2131888877), 
+    MESSAGE_10(2131888862, 2131888861), 
+    MESSAGE_11(2131888864, 2131888863), 
+    MESSAGE_12(2131888866, 2131888865), 
+    MESSAGE_13(2131888868, 2131888867), 
+    MESSAGE_14(2131888870, 2131888869), 
+    MESSAGE_15(2131888872, 2131888871), 
+    MESSAGE_16(2131888874, 2131888873), 
+    MESSAGE_17(2131888876, 2131888875), 
+    MESSAGE_2(2131888880, 2131888879), 
+    MESSAGE_3(2131888882, 2131888881), 
+    MESSAGE_4(2131888884, 2131888883), 
+    MESSAGE_5(2131888886, 2131888885), 
+    MESSAGE_6(2131888888, 2131888887), 
+    MESSAGE_7(2131888890, 2131888889), 
+    MESSAGE_8(2131888892, 2131888891), 
+    MESSAGE_9(2131888894, 2131888893);
+    
+    public int body;
+    public int title;
+    
+    private KingMessage(final int title, final int body) {
+        this.title = title;
+        this.body = body;
+    }
+}
